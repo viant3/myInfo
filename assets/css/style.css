@@ -1,0 +1,232 @@
+body {
+    background-image: url("../images/dust_scratches.png");
+}
+
+a {
+    color: #777777;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    border-right: .5px solid #CDD1C4;
+    line-height: 3px;
+}
+
+.anchorRight{
+  clear: both;
+  float: right;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+section {
+    background-color: #ffffff;
+    width: 960px; 
+    margin: 0 auto;
+    border: .5px;
+    border-color: #CDD1C4;
+    border-style: solid;
+    margin-top: 7%; 
+}
+
+
+
+hr {
+    border: 0;
+    color: #CDD1C4;
+    background: #CDD1C4;
+    width: 90%;
+    height: 1.5px;
+    margin-top: 0;
+}
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    font-weight: 600;
+    font-size: 2em; 
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+  }
+
+h2 {
+    color: #4aaaa5;
+    background-color: #ffffff;
+    max-width: 25%;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 3px;
+    margin-right: 0;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+img {
+  margin: 15px;
+}
+
+.imgSize {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 20px;
+   
+}
+
+p {
+  padding-bottom: 6px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.mainBox {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 7%;
+    margin-bottom: 15%;
+    color: #777777;
+  }
+
+.centerPage {
+    clear: both;
+    width: 960px; 
+    margin: 0 auto;  
+}
+
+/* old css replaced with cols and rows that I made in Basic Port
+
+.leftColumn {
+    width: 25%;
+    float: left;
+    padding-right: .5%;
+    min-height: 175px;
+    margin-left: 5%;
+  }
+
+  .rightColumn {
+    padding-left: 15px;
+    width: 60%;
+    float: left;
+    min-height: 175px;
+  }
+  */
+
+  .footer {
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #666666;
+    color: #777777;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+  }
+
+  form {
+    width: 85%;
+    margin: 0 auto;
+    color: #777777;
+    padding: 10px;
+  }
+
+  .textBoxStandard {
+      height: 20px;
+      width: 100%;
+  }
+
+  .floatText{
+    clear: left;
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 15px 0px;
+    width: 250px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    float: left;
+  }
+
+  input[type=submit]{
+    clear: both;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+}
+
+/* bootstrap over-rides */
+
+.navbar {
+  padding-bottom: 0px;
+  border-bottom: .5px solid #CDD1C4;
+}
+
+
+/*media*/
+
+/* smallest media */ 
+@media (min-width: 1px)
+  and  (max-width: 767px) {
+section.mainBox {
+  max-width: 400px;
+  margin-top: 30%;
+  margin-bottom: 20%;
+}
+img.imgSize {
+  display: block;
+  padding: 0 0 4% 0;
+  margin: 0 auto;
+}
+h1 {
+  width: 100%;
+  text-align: center;
+}
+h2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+.textBoxStandard {
+  line-height: 1em;
+}
+.containerNav {
+  display: flex;
+  align-items: center;
+  justify-content: center }
+div.containerNav {
+  margin: 0;
+}
+}
+
+
+/* Medium view */
+@media (min-width: 768px)
+       and (max-width: 979px) { 
+  section.mainBox {
+    max-width: 650px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
+
+/* Large view */
+@media (min-width: 980px)
+      and (max-width: 1500px) { 
+  section.mainbox {
+    width: 960px;
+    margin-top: 7%;
+  }
+}
+
+
+
